@@ -1,12 +1,14 @@
 return {
   -- add gruvbox
-  { "ellisonleao/gruvbox.nvim", "eldritch-theme/eldritch.nvim", "fedepujol/cosmos.nvim" },
+  { "catppuccin/nvim", opts = {
+    flavour = "mocha",
+  } },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "cosmos",
+      colorscheme = "catppuccin",
     },
   },
 }
