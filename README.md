@@ -8,7 +8,6 @@ The documentation for LazyVim is available [here](https://lazyvim.github.io/inst
 Here are some commands to quickly install this in your system.
 
 ```bash
-# remove previous config
 mv ~/.config/nvim{,.bak}
 mv ~/.local/share/nvim{,.bak}
 mv ~/.local/state/nvim{,.bak}
